@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T13:22:08.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3hMwi9DjJQrmm7gvuTIO" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-12T13:24:44.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wg0BIxPwjA_gEuv5DEwQ" version="21.3.2" type="github" pages="2">
   <diagram name="ARQUITETURAL" id="z1CORknT1N7jtZPOD_Wm">
     <mxGraphModel dx="954" dy="972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,12 +48,16 @@
             <mxGeometry x="170" y="30" width="120" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TV3zGwWv0whd9TTQY8Pc-15" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="781" y="20" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TV3zGwWv0whd9TTQY8Pc-16" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="781" y="180" width="60" height="80" as="geometry" />
-        </mxCell>
+        <object label="DB" Tecnologias="Mysql" id="TV3zGwWv0whd9TTQY8Pc-15">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="781" y="20" width="60" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="DB" Tecnologias="Mysql" id="TV3zGwWv0whd9TTQY8Pc-16">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="781" y="180" width="60" height="80" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="TV3zGwWv0whd9TTQY8Pc-29" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
           <mxGeometry x="213.7" y="-5" width="36.59" height="30" as="geometry" />
         </mxCell>
@@ -78,9 +82,11 @@
         <mxCell id="TV3zGwWv0whd9TTQY8Pc-37" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DESENHO ARQUITETURAL - CAFETERIA&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="-105" width="671" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="ZnIeNBDdhgGeScQXH8lt-1" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="459" y="232" width="60" height="80" as="geometry" />
-        </mxCell>
+        <object label="DB" Tecnologia="Mysql" id="ZnIeNBDdhgGeScQXH8lt-1">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+            <mxGeometry x="459" y="232" width="60" height="80" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="ZnIeNBDdhgGeScQXH8lt-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
           <mxGeometry x="470.70000000000005" y="318" width="36.59" height="30" as="geometry" />
         </mxCell>
