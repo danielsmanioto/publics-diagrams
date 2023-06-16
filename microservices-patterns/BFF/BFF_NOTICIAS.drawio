@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T01:43:52.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UcWx4ugOe4XAKIDW1dnf" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T01:47:16.977Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eSfKR8ExRPLSM2rX1tRt" version="21.3.8" type="github">
   <diagram name="Page-1" id="PCEhfPpV_Vly4jaK--HW">
     <mxGraphModel dx="954" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,6 +25,41 @@
         <mxCell id="J5xrtQVrMG76vx6kUE8D-5" value="MOBILE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J5xrtQVrMG76vx6kUE8D-16" target="J5xrtQVrMG76vx6kUE8D-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-44" value="BUSCAR&amp;nbsp; USUARIOS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J5xrtQVrMG76vx6kUE8D-35">
+          <mxGeometry x="0.3842" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J5xrtQVrMG76vx6kUE8D-16" target="J5xrtQVrMG76vx6kUE8D-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="60" />
+              <mxPoint x="850" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-43" value="BUSCAR CLIENTES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J5xrtQVrMG76vx6kUE8D-36">
+          <mxGeometry x="0.1609" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J5xrtQVrMG76vx6kUE8D-16" target="J5xrtQVrMG76vx6kUE8D-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="180" />
+              <mxPoint x="875" y="180" />
+              <mxPoint x="875" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-42" value="BUSCAR NOTICIAS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J5xrtQVrMG76vx6kUE8D-38">
+          <mxGeometry x="0.686" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="J5xrtQVrMG76vx6kUE8D-16" value="BFF WEB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="110" width="120" height="60" as="geometry" />
         </mxCell>
@@ -40,6 +75,19 @@
         <mxCell id="J5xrtQVrMG76vx6kUE8D-18" value="NOTICIAS MOBILE(PAGE APP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="400" y="200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.296;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J5xrtQVrMG76vx6kUE8D-19" target="J5xrtQVrMG76vx6kUE8D-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="303" />
+              <mxPoint x="996" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-41" value="BUSCAR NOTICIAS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J5xrtQVrMG76vx6kUE8D-40">
+          <mxGeometry x="-0.4446" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="J5xrtQVrMG76vx6kUE8D-19" value="BFF MOBILE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -54,6 +102,15 @@
         </mxCell>
         <mxCell id="J5xrtQVrMG76vx6kUE8D-22" value="API GATEWAY" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="560" y="202.5" width="50" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-29" value="USERS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="99.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-30" value="NOTICIAS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="202.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J5xrtQVrMG76vx6kUE8D-31" value="CLIENTES" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="19.5" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
